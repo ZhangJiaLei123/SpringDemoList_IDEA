@@ -1,0 +1,86 @@
+
+wechat:
+    appid: appid1
+    secret: arr1_secret
+    token: arr1_token
+    aesKey: arr1_key
+
+
+users:
+  def:
+  - id: 0
+    name: zhangsn
+
+  - id: 1
+    name: lisi
+
+# 自定义数据上报信息
+xx:
+  # 机组信息
+  machine1s:
+    -   name: XXXX
+        frequency: null
+        frequency-unit: null
+        pressure: 0.01
+        pressure-unit: Pa
+        flow: 0
+        flow-unit: NM3/H
+        state: 停机
+        runtime: 17.5
+        runtime-unit: 天
+    -   name: XXXX
+        frequency: 42.4
+        frequency-unit: HZ
+        pressure: 0.39
+        pressure-unit: Pa
+        flow: 4730
+        flow-unit: NM3/H
+        state: 运行
+        runtime: 12.5
+        runtime-unit: 天
+    -   name: XXXX
+        frequency: 46.4
+        frequency-unit: HZ
+        pressure: 0.00
+        pressure-unit: Pa
+        flow: 0
+        flow-unit: NM3/H
+        state: 停机
+        runtime: 8.2
+        runtime-unit: 天
+    -   name: XXXX
+        frequency: 41.4
+        frequency-unit: HZ
+        pressure: 0.39
+        pressure-unit: Pa
+        flow: 9532
+        flow-unit: NM3/H
+        state: 运行
+        runtime: 3.2
+        runtime-unit: 天
+    -   name: XXXX
+        frequency: null
+        frequency-unit: null
+        pressure: 0.38
+        pressure-unit: Pa
+        flow: 4800
+        flow-unit: NM3/H
+        state: 停机
+        runtime: 20.4
+        runtime-unit: 天
+    -   name: XXXX
+        frequency: null
+        frequency-unit: null
+        pressure: 0.01
+        pressure-unit: Pa
+        flow: 0
+        flow-unit: NM3/H
+        state: 停机
+        runtime: 7.5
+        runtime-unit: 天
+
+test:
+  msg: helloworld,
+
+server:
+  port: 8888
